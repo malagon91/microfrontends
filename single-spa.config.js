@@ -8,7 +8,7 @@ registerApplication(
 
 registerApplication(
     'react',
-    () => import('./src/react/main.app.js'),
+    () => import('./src/react/app.js'),
     () => location.pathname === "/vue"  ? false : true
 );
 
